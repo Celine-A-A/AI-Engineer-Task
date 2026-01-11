@@ -5,10 +5,10 @@ import json
 # =========================
 # RDS CONFIG
 # =========================
-RDS_HOST = "ai-chatbot-db.croqi0ug42tf.us-west-2.rds.amazonaws.com"
+RDS_HOST = "rds"
 RDS_DB = "postgres"
 RDS_USER = "postgres"
-RDS_PASS = "1234abcd!"
+RDS_PASS = ""
 RDS_PORT = 5432
 
 # =========================
@@ -162,3 +162,4 @@ def ask_chatbot(user_question: str):
         "results": results,
         "summary": summary
     }
+
