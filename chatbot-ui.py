@@ -1,6 +1,6 @@
 import streamlit as st
 import sys, os
-sys.path.append(r"C:\Users\celin\OneDrive\Documents\Work-Cirrusgo\Ai Eng Task1-Chatbot")
+sys.path.append(r"")
 
 from chatbot_backend import ask_chatbot
 
@@ -41,3 +41,4 @@ if st.button("Ask"):
         st.write(f"AI determined that the relevant view is **{mock_output['view']}**.")
         st.write(f"Applied filters: {mock_output['filters']}")
         st.write("Here you would see the final results from the database.")
+
